@@ -1,0 +1,13 @@
+[nixpacks]
+name = "merengue-cakes"
+version = "1"
+
+[phases.setup]
+nixpkgs = "#nixpkgs"
+packages = ["nodejs_20"]
+
+[phases.build]
+cmds = ["npm install", "npm run build"]
+
+[phases.run]
+cmds = ["npm start"]
