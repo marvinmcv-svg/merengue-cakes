@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #FDF8F3;
+  --rose: #E8B4B8;
+  --rose-dark: #C98B8E;
+  --gold: #D4AF37;
+}
+
+body {
+  background-color: var(--cream);
+  font-family: 'Georgia', serif;
+}
